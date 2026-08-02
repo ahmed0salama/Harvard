@@ -1,0 +1,15 @@
+$color : yellow;
+$navbar-nav-link-padding-x: 1rem;
+div{
+    .row{
+        background-color:$color;
+    }
+    .Name{
+        background-color:$color;
+    }
+}
+.navbar .bg-body-tertiary{
+    background-color:$color;
+    padding-left: $navbar-nav-link-padding-x;
+    padding-right: $navbar-nav-link-padding-x;
+}
