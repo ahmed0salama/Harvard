@@ -2,3 +2,10 @@
 body{
     font-family: Arial, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #004997;
+}
+a:hover{
+    text-decoration: underline;
+}
