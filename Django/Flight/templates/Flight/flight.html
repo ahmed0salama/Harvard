@@ -1,0 +1,22 @@
+{% extends 'flight/layout.html' %}
+
+{% block body %}
+<h1>Flight</h1>
+
+<ul class="list-group">
+    <li class="list-group-item">ID: {{flight.id}}</li>
+    <li class="list-group-item">Origin: {{flight.origin}}</li>
+    <li class="list-group-item">Destination: {{flight.destination}}</li>
+    <li class="list-group-item">duration: {{flight.duration}}</li>
+</ul>
+<br>
+<h2>Passengers</h2>
+<ul class="list-group">
+    {% for passenger in passengers %}
+    <li class="list-group-item">{{passenger}}</li>
+    {%endfor%}
+</ul>
+
+<a href="{% url 'index' %}">Back to flights</a>
+
+{% endblock %}
