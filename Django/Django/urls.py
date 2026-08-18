@@ -23,4 +23,5 @@ urlpatterns = [
     path('newyear/', include('newyear.urls')),
     path('tasks/', include('tasks.urls')),
     path('flight/', include('Flight.urls')),
+    path('users/', include('users.urls')),
 ]
